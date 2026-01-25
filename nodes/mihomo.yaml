@@ -1,75 +1,72 @@
 proxies:
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|15.5MB/s|D+|X"
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_1|4.2MB/s|GPT|X|History"
     network: ws
     port: 443
-    server: 172.64.52.157
-    skip-cert-verify: false
+    server: hell1.tawana.lookanet.codes
     tls: true
     type: vless
     udp: true
-    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    uuid: bcb7e22f-5196-45f5-cfc4-969b3e41f554
     ws-opts:
       headers:
-        Host: snip.zrfs.indevs.in
+        Host: Emergency.electrov2ray.store
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/40.0.2214.115 Safari/537.36
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.zrfs.indevs.in
-  - client-fingerprint: random
-    name: "\U0001F1EC\U0001F1E7GB¹-US⁰_1|6.0MB/s|GPT|TK|NF|X|[广播|机房]"
-    network: ws
-    port: 443
-    server: 162.159.152.7
-    skip-cert-verify: false
+    xudp: true
+    servername: Emergency.electrov2ray.store
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|2.1MB/s|GPT|X|Succeed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.251
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: UpdateService
+    name: "\U0001F1F9\U0001F1F7TR²_1|0.8MB/s|GPT|GM|YT-US|TK|X|[广播|机房]"
+    network: grpc
+    port: 2083
+    reality-opts:
+      public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+      short-id: 6da16b1335651b38
+    server: 45.141.148.251
     tls: true
     type: vless
     udp: true
-    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
-    ws-opts:
-      headers:
-        Host: snip.zrfs.indevs.in
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.zrfs.indevs.in
-  - client-fingerprint: random
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|6.2MB/s|X|Succeed"
+    uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+    xudp: true
+    servername: apple.com
+  - client-fingerprint: chrome
+    delay: 731
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.1MB/s|4%|X|History"
     network: ws
     port: 443
-    server: 104.19.52.176
+    server: 162.159.44.142
     skip-cert-verify: false
     tls: true
     type: vless
-    udp: true
-    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     ws-opts:
-      headers:
-        Host: snip.zrf.hidns.co
-      path: /
       early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.zrf.hidns.co
-  - client-fingerprint: random
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_2|8.3MB/s|4%|YT|X|Succeed"
-    network: ws
-    port: 443
-    server: 104.19.56.47
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
-    ws-opts:
       headers:
-        Host: snip.zrf.hidns.co
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
+        Host: l.ayovo.netlib.re
       max-early-data: 2560
-    servername: snip.zrf.hidns.co
+      path: /x-aniu/
+    servername: l.ayovo.netlib.re
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1FARU²_1|1.5MB/s|0%|GPT|X|History"
+    name: "\U0001F1F7\U0001F1FARU²_1|1.2MB/s|X|History"
     network: tcp
     port: 443
     reality-opts:
@@ -81,40 +78,88 @@ proxies:
     udp: true
     uuid: 002accb526534fcab24a72b0ea1cff59
     servername: apple.com
-  - client-fingerprint: random
-    name: "\U0001F1EC\U0001F1E7GB¹-US⁰_2|5.5MB/s|X|History"
-    network: ws
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP²_1|3.5MB/s|GPT|X"
+    network: tcp
     port: 443
-    server: 104.19.236.8
-    skip-cert-verify: false
+    reality-opts:
+      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+      short-id: 2da72ce6
+    server: 154.31.114.125
     tls: true
     type: vless
     udp: true
-    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
-    ws-opts:
-      headers:
-        Host: snip.zrfs.indevs.in
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.zrfs.indevs.in
-  - client-fingerprint: random
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_3|1.9MB/s|GPT|X"
-    network: ws
-    port: 443
-    server: 104.19.47.178
-    skip-cert-verify: false
+    uuid: c1104d93-eba3-48d6-ba63-10574bdaa8b3
+    servername: navi.bankrate.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F3F4‍☠_1\U0001F1E6\U0001F1F9AT²_4|4.5MB/s|[广播|机房]|0.6MB/s|X|History"
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 152.53.48.224
     tls: true
     type: vless
     udp: true
-    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+    servername: one-piece.com
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_2|4.1MB/s|GPT|X|History"
+    network: ws
+    port: 443
+    server: 192.0.54.34
+    tls: true
+    type: vless
+    udp: true
+    uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
     ws-opts:
       headers:
-        Host: snip.zrfs.indevs.in
+        Host: cErT.sHakHle.iR
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.143 Safari/537.36
+      path: >-
+        /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+    xudp: true
+    servername: cErT.sHakHle.iR
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.5MB/s|GPT⁺|D+|X|History"
+    network: ws
+    port: 443
+    server: 162.159.16.63
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers:
+        Host: l.ayovo.netlib.re
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-    servername: snip.zrfs.indevs.in
+    xudp: true
+    servername: l.ayovo.netlib.re
+  - name: "\U0001F1F8\U0001F1ECSG²_1|2.4MB/s|X|History"
+    password: ''
+    port: 10800
+    server: 146.235.19.84
+    skip-cert-verify: true
+    type: socks5
+    username: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
