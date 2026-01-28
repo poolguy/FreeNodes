@@ -1,103 +1,11 @@
 proxies:
-- country: 🇺🇸US
-  name: 🇯🇵JP²_1|12.8MB/s|0%|GPT⁺|GM|YT|NF|X|[原生|住宅拨号]
-  password: BxceQaOe
-  port: 2595
-  server: 13.158.129.83
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇸🇬SG²_1|5.8MB/s|4%|X|History
-  password: ""
-  port: 10809
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇦🇺AU²_1|5.1MB/s|0%|GPT⁺|X|[广播|机房]
-  network: tcp
-  port: 443
-  server: vy1.sangar.net
-  servername: vy1.sangar.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a9a33eb-546c-4ffa-aadc-1c75b3ac084b
-  xudp: true
-- client-fingerprint: random
-  name: 🇺🇸US¹⁺_1|1.0MB/s|GPT|X|History
-  network: ws
-  port: 443
-  server: 198.41.223.212
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_1|0.7MB/s|X|History
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 443
-  server: 58.152.110.210
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇹🇼TW²_1|1.1MB/s|X
-  network: tcp
-  port: 31224
-  server: tw.yiciyuanquicken.online
-  servername: tw.yiciyuanquicken.online
-  tls: true
-  type: vmess
-  uuid: d51abb35-94a4-4529-9244-2808beaa4624
 - client-fingerprint: chrome
-  name: 🇭🇰HK²_2|11.7MB/s|1%|D+|X|[原生|住宅]
-  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
-  port: 8300
-  server: 609ff75c-t9lmo0-taedaq-63bp.hkt.east.wctype.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 🇭🇰HK¹-US⁰_1|3.7MB/s|5%|YT|D+|X|History
-  network: ws
-  port: 443
-  server: 104.16.250.22
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- client-fingerprint: chrome
-  delay: 997
+  delay: 731
   encryption: none
-  name: 🇭🇰HK¹-US⁰_2|8.8MB/s|X|History
+  name: 🇺🇸US¹⁺_1|0.7MB/s|X|History|[原生|机房]
   network: ws
   port: 443
-  server: 104.17.25.173
+  server: 162.159.44.142
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
@@ -108,12 +16,90 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_3|11.4MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-  password: d720a490-d56b-11ef-a1cb-f23c9313b177
-  port: 8300
-  server: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
-  skip-cert-verify: true
-  type: anytls
+    path: /x-aniu/
+- client-fingerprint: random
+  name: 🇺🇸US¹⁺_2|6.5MB/s|D+|X
+  network: ws
+  port: 443
+  server: 173.245.59.220
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
   udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR²_1|9.3MB/s|D+|X
+  port: 443
+  reality-opts:
+    public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8
+  server: 2026.01.1.kr.aimirror.top
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
+- client-fingerprint: random
+  name: 🇸🇬SG²_1|9.8MB/s|X|History
+  network: ws
+  port: 443
+  server: 108.162.198.38
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL²_1|1.2MB/s|X
+  network: ws
+  port: 2083
+  server: 192.200.160.9
+  servername: xiz20.wizard2shop.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 517c776e-afbf-4749-9643-73c3ea26b905
+  ws-opts:
+    headers:
+      Host: xiz20.wizard2shop.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 🇭🇰HK²_1|9.3MB/s|X|History|[原生|住宅]
+  network: http
+  port: 52080
+  server: 61.15.60.153
+  type: vmess
+  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR²_1|2.0MB/s|X|History
+  network: tcp
+  port: 3032
+  reality-opts:
+    public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+    short-id: ""
+  server: fr.locations-service.com
+  servername: refersion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e59083aa-d933-4952-8cf0-eec74f718705
+  xudp: true
