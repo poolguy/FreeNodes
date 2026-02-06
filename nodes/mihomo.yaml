@@ -1,352 +1,82 @@
 proxies:
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_1|3.4MB/s|10%|GPT⁺|D+|X"
-    password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
-    port: 38834
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_1|3.5MB/s|6%|GPT⁺|D+|X"
-    password: cd3603df-3a01-4a16-8987-3a4cc000583b
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_2|3.5MB/s|6%|GPT⁺|D+|X"
-    password: 73cd406b-1bec-4302-81ad-2809f2c55990
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - name: "\U0001F1EE\U0001F1F3IN²_1|0.5MB/s|GPT⁺|X|History"
-    password: ''
-    port: 1080
-    server: 64.227.131.240
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EB\U0001F1EEFI²_1|1.3MB/s|10%|GPT⁺|D+|X"
-    network: ws
-    port: 38825
-    server: v3fi2.stablep.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: a2f34326-dc35-45c9-8391-53606ee23b0c
-    ws-opts:
-      headers:
-        HOST: v3fi2.stablep.top
-      path: /fi2-5
-    client-fingerprint: chrome
-    servername: v3fi2.stablep.top
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EB\U0001F1EEFI²_2|2.2MB/s|10%|GPT⁺|D+|X"
-    network: ws
-    port: 38825
-    server: v3fi2.stablep.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    ws-opts:
-      headers:
-        HOST: v3fi2.stablep.top
-      path: /fi2-5
-    client-fingerprint: chrome
-    servername: v3fi2.stablep.top
-  - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8 US"
-    name: "\U0001F1FA\U0001F1F8US²_1|4.5MB/s|GPT|GM|YT|NF|X|History"
-    password: amazonskr05
-    port: 443
-    server: 13.217.198.211
-    type: ss
-  - name: "\U0001F3F4‍☠_1\U0001F3F4‍☠_4193.233.254.9:1080-01|2.5MB/s|2.4MB/s|X|History"
-    password: ''
-    port: 1080
-    server: 193.233.254.9
-    skip-cert-verify: true
-    type: socks5
-    username: ''
   - encryption: none
-    name: "\U0001F1F3\U0001F1F1NL²_1|6.2MB/s|GPT⁺|X|History"
+    name: "\U0001F1F3\U0001F1F1NL²_1|7.4MB/s|GPT|X|[广播|住宅拨号]"
     network: ws
-    port: 80
-    server: 104.18.32.47
+    port: 2052
+    server: nodejs.org
     type: vless
     udp: true
-    uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+    uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
     ws-opts:
       headers:
-        Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+        Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /?ed
     xudp: true
     client-fingerprint: chrome
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_3|3.0MB/s|6%|GPT⁺|D+|X"
-    password: 8bb14fbc-db35-41d9-9c46-a99590511f69
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - cipher: aes-256-cfb
-    country: "\U0001F1F7\U0001F1FARU"
-    name: "\U0001F1F7\U0001F1FARU²_1|4.6MB/s|25%|X|History"
-    password: gYCYXfkUQEs2TaJQ
-    port: 9038
-    server: 194.116.173.21
-    type: ss
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_1|3.6MB/s|6%|GPT⁺|NF|D+|X|[广播|机房]"
-    password: 73cd406b-1bec-4302-81ad-2809f2c55990
-    port: 38844
-    server: uk1.stablenode.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: uk1.stablenode.top
-    client-fingerprint: chrome
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_4|6.5MB/s|GPT⁺|X|History"
-    network: ws
-    port: 80
-    server: 104.18.32.47
-    type: vless
-    udp: true
-    uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
-    ws-opts:
-      headers:
-        Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
-      path: /?ed
-    xudp: true
-    client-fingerprint: chrome
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_1|5.8MB/s|1%|GPT⁺|X"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 35.181.255.155
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    type: trojan
-    udp: true
-    network: tcp
-    client-fingerprint: chrome
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_1|4.3MB/s|6%|GPT⁺|GM|YT|D+|X"
-    network: ws
-    port: 38801
-    server: hk33.stablep.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 73cd406b-1bec-4302-81ad-2809f2c55990
-    ws-opts:
-      headers:
-        HOST: hk33.stablep.top
-      path: /hk33-1
-    client-fingerprint: chrome
-    servername: hk33.stablep.top
-  - name: "\U0001F1ED\U0001F1F0HK²_2|4.3MB/s|0%|YT-CN|X|History"
-    password: BxceQaOe
-    port: 443
-    server: 219.76.135.98
-    skip-cert-verify: true
-    sni: 219.76.135.98
-    type: trojan
-    network: tcp
-    client-fingerprint: chrome
-  - country: "\U0001F1EA\U0001F1F8ES"
-    name: "\U0001F1FA\U0001F1F8US²_2|1.3MB/s|10%|GPT⁺|X"
-    password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
-    port: 38813
-    server: us9.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: us9.stablep.top
-    client-fingerprint: chrome
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F3\U0001F1F1NL²_2|2.5MB/s|44%|GPT⁺|YT-US|X"
-    network: ws
-    port: 2053
-    server: nextmi.hajmyab.ir
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-    ws-opts:
-      headers:
-        HOST: app.hajmyab.ir
-      path: /
-    client-fingerprint: chrome
-    servername: app.hajmyab.ir
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE¹-US⁰_1|5.5MB/s|D+|X"
-    network: ws
+    name: "\U0001F1EF\U0001F1F5JP²_1|0.8MB/s|0%|GPT|X"
+    network: tcp
     port: 443
-    server: 89.169.13.12
+    reality-opts:
+      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+      short-id: 2da72ce6
+    server: 154.31.114.125
+    tls: true
+    type: vless
+    udp: true
+    uuid: 35f2f529-968d-4727-b57a-bcc39a3fd2ae
+    servername: navi.bankrate.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|7.5MB/s|GM|YT|NF|D+|X|[原生|机房]"
+    network: ws
+    port: 2096
+    server: 25.26.27.238
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: sni.111000.indevs.in
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: sni.111000.indevs.in
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_3|4.7MB/s|1%|YT|D+|X"
-    network: ws
-    port: 80
-    server: 17b4b220-t8pj40-t9uin7-19ord.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 17b4b220-t8pj40-t9uin7-19ord.hkt.gotochinatown.net
+        Host: sni.jpmj.dev
       path: /
-    client-fingerprint: chrome
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    http-opts:
-      method: GET
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU²_2|1.6MB/s|7%|GPT|TK|NF|X"
-    network: http
-    port: 10468
-    server: 185.113.10.198
-    tls: false
-    type: vless
-    udp: true
-    uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
-    servername: Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL²_3|1.2MB/s|42%|GPT⁺|X"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-    server: nld14.freednet.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
-    servername: www.cybo.com
-  - name: "\U0001F1F8\U0001F1ECSG²_1|7.9MB/s|44%|GPT⁺|GM|YT|X"
-    password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
-    port: 4449
-    server: 4-ndsrzkgg.mix.dexiansheng.com
-    tls: true
-    type: http
-    username: walless
-    sni: 4-ndsrzkgg.mix.dexiansheng.com
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_2|2.8MB/s|10%|GPT⁺|D+|X"
-    password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
-    port: 38834
-    server: v3fr2.stablep.top
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: sni.jpmj.dev
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1EF\U0001F1F5JP²_2|15.2MB/s|0%|GPT⁺|GM|YT|NF|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50010
+    server: lh2.cac.cab
+    type: ss
+  - name: "\U0001F1FA\U0001F1F8US²_1|5.3MB/s|GPT⁺|X|Succeed"
+    password: ''
+    port: 1080
+    server: 174.138.61.184
     skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_2|3.6MB/s|6%|GPT⁺|D+|X"
-    password: cd3603df-3a01-4a16-8987-3a4cc000583b
-    port: 38844
-    server: uk1.stablenode.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: uk1.stablenode.top
-    client-fingerprint: chrome
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EB\U0001F1EEFI²_3|3.1MB/s|10%|GPT⁺|D+|X"
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB¹-SG⁰_1|5.3MB/s|GPT|D+|X|Succeed|[广播|机房]"
     network: ws
-    port: 38825
-    server: v3fi2.stablep.top
-    skip-cert-verify: true
+    port: 2053
+    server: quick-edit.devprod.cloudflare.dev
     tls: true
-    type: vmess
-    uuid: 8bb14fbc-db35-41d9-9c46-a99590511f69
+    type: vless
+    udp: true
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
     ws-opts:
       headers:
-        HOST: v3fi2.stablep.top
-      path: /fi2-5
-    client-fingerprint: chrome
-    servername: v3fi2.stablep.top
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_3|3.6MB/s|6%|GPT⁺|D+|X"
-    password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    port: 38844
-    server: uk1.stablenode.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: uk1.stablenode.top
-    client-fingerprint: chrome
+        Host: snippet.danfeng21.ndjp.net
+      path: /danfeng
+    servername: snippet.danfeng21.ndjp.net
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1EDCH²_1|4.0MB/s|0%|GPT⁺|D+|X|History"
+    name: "\U0001F1E8\U0001F1EDCH²_1|3.6MB/s|0%|GPT⁺|YT-RU|D+|X|Succeed|[广播|机房]"
     port: 443
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -359,197 +89,132 @@ proxies:
     uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
     network: tcp
     servername: sun6-21.userapi.com
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_3|3.4MB/s|10%|GPT⁺|D+|X"
-    password: 8bb14fbc-db35-41d9-9c46-a99590511f69
-    port: 38833
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|6.3MB/s|GPT|GM|YT|NF|D+|X"
-    network: ws
-    port: 2096
-    server: 25.129.198.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: sni.jpmj.dev
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR²_1|0.7MB/s|0%|GPT|GM|YT|X|History"
-    password: qwerREWQ@@
-    port: 19203
-    server: 121.170.203.147
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US²_2|9.5MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|[广播|机房]"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50019
+    server: lh2.cac.cab
     type: ss
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK²_4|6.1MB/s|0%|YT-CN|D+|X|History"
-    password: BxceQaOe
-    port: 443
-    server: 219.76.135.98
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-    network: tcp
-    client-fingerprint: chrome
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E9\U0001F1EADE²_5|0.7MB/s|42%|GPT⁺|YT-RU|X"
-    password: i9lip2dJ8kV4wJQ0pJuRr6
-    port: 443
-    server: 185.100.159.79
-    type: ss
-    udp: true
-  - name: "\U0001F3F4‍☠_2\U0001F3F4‍☠_1193.233.254.7:1080-01|3.1MB/s|3.4MB/s|X|History"
+  - name: "\U0001F1F8\U0001F1ECSG²_1|12.6MB/s|X"
     password: ''
-    port: 1080
-    server: 193.233.254.7
+    port: 10807
+    server: 146.235.19.84
     skip-cert-verify: true
     type: socks5
     username: ''
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US²_3|4.2MB/s|54%|GPT⁺|NF|X|History"
-    password: 5d8680180abdb564
-    port: 45234
-    server: 154.53.34.27
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_1|3.6MB/s|GPT|GM|YT|TK|NF|D+|X"
-    network: ws
-    port: 2053
-    server: china.embassy.gov.au
-    tls: true
-    type: vless
-    udp: true
-    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-    ws-opts:
-      headers:
-        Host: snippet.danfeng.gleeze.com
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snippet.danfeng.gleeze.com
-  - name: "\U0001F1FA\U0001F1F8US²_4|3.9MB/s|GPT⁺|X|History"
+  - name: "\U0001F1F3\U0001F1F1NL²_2|4.5MB/s|17%|GPT⁺|X|History"
     password: ''
     port: 1080
-    server: 192.241.156.17
+    server: 5.255.117.127
     skip-cert-verify: true
     type: socks5
     username: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1E6CA²_1|5.7MB/s|26%|GPT⁺|GM|YT|X"
-    network: ws
-    port: 80
-    server: 104.18.32.47
-    tls: false
-    type: vless
-    udp: true
-    uuid: 0b241646-64d0-4837-a4b1-28dd97e59089
-    ws-opts:
-      headers:
-        Host: GLORiOUS-MouNtaiNk9cZ8WOv4a.EcotourISs.co.uK.
-      path: /?ed
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_6|3.5MB/s|6%|GPT⁺|D+|X"
-    password: a2f34326-dc35-45c9-8391-53606ee23b0c
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_4|3.6MB/s|6%|GPT⁺|D+|X"
-    password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
-    port: 38844
-    server: uk1.stablenode.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: uk1.stablenode.top
-    client-fingerprint: chrome
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_4|3.6MB/s|10%|GPT⁺|D+|X|[广播|机房]"
-    password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    port: 38833
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_2|6.3MB/s|GPT|GM|YT|TK|NF|D+|X|History"
-    network: ws
-    port: 2053
-    server: china.embassy.gov.au
-    tls: true
-    type: vless
-    udp: true
-    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-    ws-opts:
-      headers:
-        Host: snippet.danfeng.us.ci
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snippet.danfeng.us.ci
-  - alterId: 0
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    alterId: '0'
     cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EB\U0001F1EEFI²_4|3.1MB/s|10%|GPT⁺|D+|X"
+    name: "\U0001F1EB\U0001F1F7FR²_1|1.4MB/s|GPT⁺|D+|X|History|[原生|机房]"
     network: ws
-    port: 38825
-    server: v3fi2.stablep.top
-    skip-cert-verify: true
+    port: 8443
+    server: 162.159.152.4
+    skip-cert-verify: false
     tls: true
     type: vmess
-    uuid: 3efa5fe6-488a-47d4-8139-78d2e032cc68
+    udp: true
+    uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
     ws-opts:
       headers:
-        HOST: v3fi2.stablep.top
-      path: /fi2-5
+        Host: frsys.fl-dl.com
+      path: /gbt
+    xudp: true
     client-fingerprint: chrome
-    servername: v3fi2.stablep.top
-  - name: "\U0001F1ED\U0001F1F0HK²_5|1.0MB/s|0%|X|History"
-    network: tcp
-    password: BxceQaOe
-    port: 443
-    server: 219.76.135.98
+    servername: frsys.fl-dl.com
+  - country: "\U0001F1E7\U0001F1E9BD"
+    name: "\U0001F1F8\U0001F1ECSG²_2|7.9MB/s|GPT|YT|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 49899
+    server: 14e297c343de34f9a70f81ab7d4f6b76.lh.gtm.cac.cab
     skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    client-fingerprint: chrome
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_5|1.6MB/s|10%|GPT⁺|D+|X"
-    password: cd3603df-3a01-4a16-8987-3a4cc000583b
-    port: 38833
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
+    sni: tcsg1.bilibili.com
     type: trojan
     udp: true
     network: tcp
-    sni: v3fr2.stablep.top
     client-fingerprint: chrome
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|4.1MB/s|D+|X"
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_2|7.8MB/s|GPT⁺|GM|YT|TK|NF|D+|X|[原生|机房]"
     network: ws
-    port: 2096
-    server: v2.dabache.top
+    port: 2095
+    server: cdnjs.com
+    skip-cert-verify: true
+    type: vless
+    udp: true
+    uuid: ''
+    ws-opts:
+      headers:
+        Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+      path: /fp=randomized
+    client-fingerprint: chrome
+    servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  - client-fingerprint: edge
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F7\U0001F1FARU²_1|5.6MB/s|YT|X|Succeed|[原生|机房]"
+    network: tcp
+    port: 2777
+    reality-opts:
+      public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao
+      short-id: 0f4dacf08722a29f
+    server: ya.asbndx.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: e804e80a-e413-436e-8e3c-8cce9ef657b9
+    xudp: true
+    servername: ads.x5.ru
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK²_1|8.0MB/s|1%|YT|NF|D+|X|History"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+    server: 2.hk.1.cdn-bilibili.cn
+    tls: true
+    type: vless
+    udp: true
+    uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+    servername: www.icloud.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP²_3|9.3MB/s|0%|GPT⁺|YT-RU|X|History"
+    network: tcp
+    port: 27724
+    reality-opts:
+      public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+      short-id: ''
+    server: 116.80.44.144
+    tls: true
+    type: vless
+    udp: true
+    uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+    xudp: true
+    servername: www.yahoo.co.jp
+  - cipher: aes-256-cfb
+    country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_2|0.6MB/s|0%|YT|NF|X|History"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 203.23.128.33
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE¹-US⁰_1|3.9MB/s|D+|X|History|[广播|机房]"
+    network: ws
+    port: 443
+    server: 217.154.213.217
     tls: true
     type: vless
     udp: true
@@ -559,68 +224,151 @@ proxies:
         Host: sni.111000.indevs.in
       path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
     servername: sni.111000.indevs.in
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_5|3.6MB/s|6%|GPT⁺|D+|X"
-    password: 8e4fd409-bc1b-43c6-840c-72409891b954
-    port: 38844
-    server: uk1.stablenode.top
+  - name: "\U0001F3F4‍☠_1\U0001F3F4‍☠_4193.233.254.9:1080-01|2.5MB/s|3.0MB/s|X|History"
+    password: ''
+    port: 1080
+    server: 193.233.254.9
     skip-cert-verify: true
-    type: trojan
+    type: socks5
+    username: ''
+  - encryption: none
+    name: "\U0001F1FB\U0001F1F3VN²_1|6.6MB/s|GPT⁺|GM|YT|X"
+    network: ws
+    port: 58202
+    server: 103.245.237.124
+    type: vless
     udp: true
-    network: tcp
-    sni: uk1.stablenode.top
+    uuid: cca053d5-7123-4a87-83d6-babe4e9c8115
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
     client-fingerprint: chrome
-  - name: "\U0001F1ED\U0001F1F0HK²_6|1.2MB/s|0%|D+|X|History"
-    password: BxceQaOe
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_1|6.4MB/s|0%|GPT⁺|D+|X|[原生|商宽]"
+    network: ws
+    port: 2053
+    server: wi.buzzmuzzpanel.online
+    tls: true
+    type: vless
+    udp: true
+    uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
+    ws-opts:
+      headers:
+        Host: ds2-mx-hel22-protection.iranlease.com
+        User-Agent: >-
+          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: ds2-mx-hel22-protection.iranlease.com
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1EF\U0001F1F5JP²_4|13.0MB/s|0%|GPT⁺|GM|YT|NF|D+|X|Succeed"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50012
+    server: lh2.cac.cab
+    type: ss
+  - name: "\U0001F1F3\U0001F1F1NL²_3|5.6MB/s|17%|GPT⁺|X"
+    password: ''
+    port: 1080
+    server: 5.255.117.250
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1F9\U0001F1FCTW²_1|15.4MB/s|0%|GPT⁺|GM|YT|NF|D+|X|Succeed"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50014
+    server: lh2.cac.cab
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F9\U0001F1FCTW²_2|4.5MB/s|GPT⁺|GM|YT|NF|D+|X|Succeed"
+    network: tcp
+    port: 23921
+    server: vm1.as7akp.cn
+    skip-cert-verify: true
+    type: vmess
+    uuid: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+    client-fingerprint: chrome
+    servername: vm1.as7akp.cn
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹-KR⁰_1|1.9MB/s|GPT|GM|YT|TK|NF|D+|X|Succeed|[原生|机房]"
+    network: ws
     port: 443
-    server: 219.76.135.98
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
+    server: 104.17.76.224
+    skip-cert-verify: false
+    tls: true
+    type: vless
     udp: true
-    network: tcp
-    client-fingerprint: chrome
-  - name: "\U0001F1F0\U0001F1F7KR²_2|0.8MB/s|GPT|X|History"
+    uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+    ws-opts:
+      headers:
+        Host: 5465765525.ccfly.tech
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    servername: 5465765525.ccfly.tech
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1F8\U0001F1ECSG²_3|15.4MB/s|0%|GPT⁺|GM|YT|NF|D+|X|Succeed"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50008
+    server: lh2.cac.cab
+    type: ss
+  - name: "\U0001F1F0\U0001F1F7KR²_1|1.1MB/s|4%|GPT⁺|GM|X|History"
     port: 1090
     server: 121.169.46.116
     tls: false
     type: socks5
     username: T2clM0QlM0Q6
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_7|4.3MB/s|6%|GPT⁺|YT|D+|X"
-    network: ws
-    port: 38802
-    server: hk33.stablep.top
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US²_3|8.1MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[广播|机房]"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50020
+    server: lh2.cac.cab
+    type: ss
+  - name: "\U0001F1F8\U0001F1ECSG²_4|12.8MB/s|X"
+    password: ''
+    port: 1080
+    server: 165.22.110.253
     skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    ws-opts:
-      headers:
-        HOST: hk33.stablep.top
-      path: /hk33-2
-    client-fingerprint: chrome
-    servername: hk33.stablep.top
-  - country: "\U0001F1EA\U0001F1F8ES"
-    name: "\U0001F1FA\U0001F1F8US²_5|0.7MB/s|10%|GPT⁺|X"
-    password: 8bb14fbc-db35-41d9-9c46-a99590511f69
-    port: 38821
-    server: us9.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: us9.stablep.top
-    client-fingerprint: chrome
+    type: socks5
+    username: ''
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1F8\U0001F1ECSG²_5|13.2MB/s|0%|GPT⁺|GM|YT|NF|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50006
+    server: lh2.cac.cab
+    type: ss
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1F9\U0001F1FCTW²_3|15.1MB/s|0%|GPT⁺|GM|YT|NF|D+|X|Succeed"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50015
+    server: lh2.cac.cab
+    type: ss
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_2|6.6MB/s|GM|YT|D+|X"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_3|15.0MB/s|GPT|YT-HK|D+|X"
     network: ws
     port: 2096
-    server: 103.116.7.138
+    server: 190.93.244.138
     tls: true
     type: vless
     udp: true
@@ -632,7 +380,7 @@ proxies:
     servername: sni.111000.indevs.in
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL²_4|5.7MB/s|0%|GPT⁺|X"
+    name: "\U0001F1F3\U0001F1F1NL²_4|6.1MB/s|0%|GPT⁺|X|History|[原生|商宽]"
     port: 443
     reality-opts:
       public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
@@ -645,467 +393,31 @@ proxies:
     uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
     network: tcp
     servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK¹-SG⁰_1|1.1MB/s|GPT⁺|YT|D+|X"
-    network: ws
-    port: 2053
-    server: 1357900.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-    ws-opts:
-      headers:
-        Host: snippet.danfeng.gleeze.com
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snippet.danfeng.gleeze.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US²_6|3.4MB/s|7%|GPT|X"
-    network: tcp
-    port: 5443
-    reality-opts:
-      public-key: fN0jSTqScsS-N3lRjtdgMoKsm3y2IJB9-z84Ewg_p2M
-      short-id: 7c41e6ab7c162a95
-    server: 185.247.185.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: cd0aba07-3b28-48a2-8cbb-49be72420089
-    xudp: true
-    servername: 'sun6-22.userapi.com:443'
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_8|4.3MB/s|6%|GPT⁺|YT|D+|X"
-    network: ws
-    port: 38802
-    server: hk33.stablep.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: cd3603df-3a01-4a16-8987-3a4cc000583b
-    ws-opts:
-      headers:
-        HOST: hk33.stablep.top
-      path: /hk33-2
-    client-fingerprint: chrome
-    servername: hk33.stablep.top
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_6|3.7MB/s|10%|GPT⁺|X"
-    password: 8e4fd409-bc1b-43c6-840c-72409891b954
-    port: 38833
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_7|3.6MB/s|6%|GPT⁺|D+|X"
-    password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_3|6.5MB/s|GM|YT|NF|D+|X"
-    network: ws
-    port: 2096
-    server: 92.53.191.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.jpmj.dev
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: sni.jpmj.dev
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_6|3.6MB/s|6%|GPT⁺|NF|D+|X"
-    password: a2f34326-dc35-45c9-8391-53606ee23b0c
-    port: 38844
-    server: uk1.stablenode.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: uk1.stablenode.top
-    client-fingerprint: chrome
-  - name: "\U0001F1F0\U0001F1F7KR²_3|3.4MB/s|10%|GPT|X|History"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_9|0.9MB/s|0%|X|History"
-    password: BxceQaOe
-    port: 443
-    server: 219.76.135.98
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-    network: tcp
-    client-fingerprint: chrome
-  - name: "\U0001F3F4‍☠_3DE23｜原生/疑似家宽｜高风险 (黑名单)|2.4MB/s|X"
-    port: 1080
-    server: 193.233.254.8
-    tls: false
-    type: socks5
-    username: T2dAMTkzLjIzMy4yNTQuODpPZ0AxOTMuMjMzLjI1NC44
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_8|1.8MB/s|6%|GPT⁺|D+|X"
-    password: 8e4fd409-bc1b-43c6-840c-72409891b954
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP²_1|2.1MB/s|0%|X"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: 2da72ce6
-    server: 154.31.114.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5bd2e197-30a5-4684-9778-5bdb9ec764fe
-    servername: navi.bankrate.com
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_7|1.7MB/s|10%|GPT⁺|D+|X"
-    password: 8bb14fbc-db35-41d9-9c46-a99590511f69
-    port: 38834
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_3|1.7MB/s|GPT|D+|X"
-    network: ws
-    port: 2053
-    server: 104.17.73.206
-    tls: true
-    type: vless
-    udp: true
-    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-    ws-opts:
-      headers:
-        Host: snippet.fgfw.de5.net
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
-          Mobile Safari/537.36
-      path: /danfeng?ed=
-    xudp: true
-    servername: snippet.fgfw.de5.net
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_4|1.2MB/s|GPT|NF|D+|X"
-    network: ws
-    port: 2053
-    server: go2.lenovo.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-    ws-opts:
-      headers:
-        Host: snippet.danfeng21.ndjp.net
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snippet.danfeng21.ndjp.net
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: TestChatGRPC
-    name: "\U0001F1E9\U0001F1EADE²_9|0.6MB/s|0%|GPT|YT-RU|D+|X|[广播|机房]"
-    network: grpc
-    port: 2443
-    reality-opts:
-      public-key: cVF_4NlqDOmx4hBXNH58IIRxyP1boRxV-AZ34-9VmXc
-      short-id: a1b2c3d4
-    server: 193.23.219.163
-    tls: true
-    type: vless
-    udp: true
-    uuid: 911678d4-3ccf-4d87-8abe-89efb7cbd2f3
-    xudp: true
-    servername: www.microsoft.com
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: JNIR
-    name: "\U0001F1F8\U0001F1EASE²_1|3.1MB/s|YT-US|NF|X"
-    network: grpc
-    port: 504
-    reality-opts:
-      public-key: aNLPNNyjIC7QYLe7MpF4nxxHhO421dBSZaQgsDd1szs
-      short-id: 1d64e9805b4f9ae3
-    server: dd.openaccessnode.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
-    xudp: true
-    servername: nobitex.ir
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_8|3.2MB/s|10%|GPT⁺|X|[广播|机房]"
-    password: 8e4fd409-bc1b-43c6-840c-72409891b954
-    port: 38834
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - name: "\U0001F1E9\U0001F1EADE¹-US⁰_2|6.5MB/s|D+|X"
-    network: ws
-    port: 2053
-    server: 5.178.110.39
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.indevs.in
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    client-fingerprint: chrome
-    servername: sni.111000.indevs.in
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_10|1.5MB/s|0%|GPT⁺|YT|D+|X"
-    network: ws
-    port: 52513
-    server: aflzzul.meiquankongjian.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-    ws-opts:
-      headers:
-        HOST: aflzzul.meiquankongjian.com
-        Host: aflzzul.meiquankongjian.com
-      path: /564dfa20/
-    client-fingerprint: chrome
-    servername: aflzzul.meiquankongjian.com
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_10|3.6MB/s|6%|GPT⁺|NF|D+|X"
-    password: 3efa5fe6-488a-47d4-8139-78d2e032cc68
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_9|1.9MB/s|10%|GPT⁺|D+|X"
-    password: a2f34326-dc35-45c9-8391-53606ee23b0c
-    port: 38834
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
   - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1F3\U0001F1F1NL²_5|1.4MB/s|44%|GPT⁺|X"
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_2|6.4MB/s|0%|GPT⁺|D+|X|History|[原生|商宽]"
     network: ws
     port: 2053
-    server: nextmi.hajmyab.ir
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-    ws-opts:
-      headers:
-        Host: app.hajmyab.ir
-      path: /
-    xudp: true
-    client-fingerprint: chrome
-    servername: yakxvtfbyk.hajmyab.ir
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_11|4.3MB/s|6%|GPT⁺|GM|YT|NF|D+|X"
-    network: ws
-    port: 38801
-    server: hk33.stablep.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    ws-opts:
-      headers:
-        HOST: hk33.stablep.top
-      path: /hk33-1
-    client-fingerprint: chrome
-    servername: hk33.stablep.top
-  - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_12|1.7MB/s|YT-CN|NF|X|History"
-    password: BxceQaOe
-    port: 443
-    server: 219.76.135.98
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    client-fingerprint: chrome
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_11|3.5MB/s|6%|GPT⁺|D+|X"
-    password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    port: 38846
-    server: vde4.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: vde4.stablep.top
-    client-fingerprint: chrome
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F4NO²_1|5.2MB/s|49%|GPT⁺|D+|X"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 3y_BXj6smo8Fc8hrdw94yucA0_V-f8Q-1-WvgNZpsik
-      short-id: 0a77acf80000e11f
-    server: no-most.asbndx.com
+    server: 162.159.152.4
     tls: true
     type: vless
     udp: true
-    uuid: 3209ec50-2909-4972-83cb-93349f9d94fd
-    xudp: true
-    servername: no-most.asbndx.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EB\U0001F1EEFI²_5|1.8MB/s|10%|GPT⁺|D+|X"
-    network: ws
-    port: 38825
-    server: v3fi2.stablep.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
+    uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
     ws-opts:
       headers:
-        HOST: v3fi2.stablep.top
-      path: /fi2-5
-    client-fingerprint: chrome
-    servername: v3fi2.stablep.top
-  - name: "\U0001F1FB\U0001F1F3VN²_1|2.6MB/s|X|History"
-    password: ''
-    port: 1080
-    server: 183.80.54.224
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_7|3.6MB/s|6%|GPT⁺|D+|X"
-    password: 8bb14fbc-db35-41d9-9c46-a99590511f69
-    port: 38844
-    server: uk1.stablenode.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: uk1.stablenode.top
-    client-fingerprint: chrome
-  - country: "\U0001F1EA\U0001F1F8ES"
-    name: "\U0001F1FA\U0001F1F8US²_7|1.1MB/s|GPT⁺|D+|X"
-    password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    port: 38822
-    server: us9.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: us9.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1EA\U0001F1F8ES"
-    name: "\U0001F1FA\U0001F1F8US²_8|1.0MB/s|GPT|X"
-    password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
-    port: 38822
-    server: us9.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: us9.stablep.top
-    client-fingerprint: chrome
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1E6\U0001F1EAAE²_10|1.5MB/s|10%|GPT⁺|X"
-    password: 19677066-9cd1-448d-b3e4-7f98d0d608e5
-    port: 38834
-    server: v3fr2.stablep.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: v3fr2.stablep.top
-    client-fingerprint: chrome
-  - encryption: none
-    name: "\U0001F1F3\U0001F1F1NL²_6|7.9MB/s|0%|GPT⁺|D+|X"
-    network: ws
-    port: 8080
-    server: digitalocean.com
-    type: vless
-    udp: true
-    uuid: a460ed1b-e063-496c-9057-784547c0c81c
-    ws-opts:
-      headers:
-        Host: dildodod.decoreland.ir.
+        Host: ds2-mx-hel22-protection.iranlease.com
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/34.0.1847.131 Safari/537.36
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
       path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
     xudp: true
-    client-fingerprint: chrome
+    servername: ds2-mx-hel22-protection.iranlease.com
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_5|6.6MB/s|GPT|GM|YT|TK|NF|D+|X"
+    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_1|6.3MB/s|GPT|GM|YT|TK|NF|D+|X|History|[原生|机房]"
     network: ws
     port: 2053
     server: singapore.com
@@ -1120,69 +432,31 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: snippet.danfeng21.ndjp.net
-  - name: "\U0001F1F3\U0001F1F1NL²_7|5.5MB/s|X|History"
-    password: ''
-    port: 1080
-    server: 104.248.203.234
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1F9\U0001F1FCTW²_1|5.7MB/s|GPT⁺|GM|YT|NF|D+|X|History"
-    password: mrwdfNTD8M79LCukCieldrqZWqs=
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-  - alterId: 2
+  - alterId: 0
     cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
+    country: "\U0001F1FA\U0001F1F8US"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_13|1.8MB/s|1%|YT|D+|X"
+    name: "\U0001F1E6\U0001F1EAAE²_1|5.0MB/s|GPT⁺|X|[广播|机房]"
     network: ws
-    port: 80
-    server: 203a83c0-t70f40-t9uin7-19ord.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-    ws-opts:
-      path: /
-      headers:
-        Host: 203a83c0-t70f40-t9uin7-19ord.hkt.gotochinatown.net
-    client-fingerprint: chrome
-  - country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1EC\U0001F1E7GB²_8|3.5MB/s|6%|GPT|D+|X"
-    password: 3ace63c8-08e1-47bc-a1c7-b65f2dfc7d4a
-    port: 38844
-    server: uk1.stablenode.top
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-    network: tcp
-    sni: uk1.stablenode.top
-    client-fingerprint: chrome
-  - client-fingerprint: safari
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK²_14|5.1MB/s|1%|YT|D+|X"
-    network: tcp
     port: 443
-    reality-opts:
-      public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
-    server: 2.hk.1.cdn-bilibili.cn
+    server: '::ffff:ac40:9bd1'
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-    servername: www.icloud.com
+    type: vmess
+    uuid: ffece2a9-0296-46a9-8db8-742d29d240ff
+    ws-opts:
+      headers:
+        HOST: bedrid.denizhosting.me
+      path: >-
+        /ISwpYVR8SjxXcUZEUzVfNURTUC8lV29DXSgsKH1SN0g1JVpDHU1cWigKAC8QRltMCi86ABw4JV14HVMn
+    client-fingerprint: chrome
+    servername: bedrid.denizhosting.me
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE¹-US⁰_3|4.7MB/s|D+|X"
+    name: "\U0001F1E9\U0001F1EADE¹-US⁰_2|4.3MB/s|D+|X|History|[广播|机房]"
     network: ws
     port: 443
-    server: 217.154.213.217
+    server: 89.169.13.12
     tls: true
     type: vless
     udp: true
@@ -1192,17 +466,199 @@ proxies:
         Host: sni.111000.indevs.in
       path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
     servername: sni.111000.indevs.in
-  - name: "\U0001F1F8\U0001F1ECSG²_2|2.9MB/s|GPT⁺|X"
-    password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
-    port: 4446
-    server: 4-nqvrfftt.mix.dexiansheng.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F1\U0001F1F9LT²_1|5.9MB/s|42%|GPT⁺|X|[广播|商宽]"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
+      short-id: ffffffffff
+    server: 2.59.162.100
     tls: true
-    type: http
-    username: walless
-    sni: 4-nqvrfftt.mix.dexiansheng.com
+    type: vless
+    udp: true
+    uuid: 1004c163-26ea-5662-b5b2-40df01176f8b
+    xudp: true
+    servername: apple.com
+  - name: "\U0001F1E9\U0001F1EADE¹-US⁰_3|6.9MB/s|TK|D+|X|[广播|机房]"
+    network: ws
+    port: 2053
+    server: 188.241.241.33
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    client-fingerprint: chrome
+    servername: sni.111000.indevs.in
+  - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_1|6.4MB/s|5%|GPT|D+|X|[广播|机房]"
+    network: ws
+    port: 2053
+    server: 31.59.121.155
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    client-fingerprint: chrome
+    servername: sni.111000.indevs.in
+  - name: "\U0001F1E9\U0001F1EADE²_3|3.2MB/s|GPT|X"
+    password: ''
+    port: 1080
+    server: 217.154.207.198
+    skip-cert-verify: true
+    type: socks5
+    username: ''
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG²_3|6.5MB/s|X|History"
+    name: "\U0001F1EB\U0001F1F7FR²_2|7.4MB/s|42%|GPT⁺|X|History|[原生|机房]"
+    network: ws
+    port: 8080
+    server: 188.114.98.0
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: nasnet
+    ws-opts:
+      headers:
+        Host: nasnet-162191099.sharghdaily.co
+      path: >-
+        /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
+    xudp: true
+    client-fingerprint: chrome
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US²_4|3.7MB/s|0%|GPT⁺|X|Succeed|[原生|机房]"
+    network: ws
+    port: 443
+    server: v1.dabache.top
+    tls: true
+    type: vmess
+    udp: true
+    uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
+    ws-opts:
+      headers:
+        Host: blog.dezh.store
+      path: /
+    client-fingerprint: chrome
+    servername: v1.dabache.top
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1EEFI²_1|1.7MB/s|0%|GPT⁺|D+|X|[原生|机房]"
+    network: tcp
+    port: 32061
+    reality-opts:
+      public-key: e2yc3QjJ1spCe1eLR9cMd_2-TieGJKs2sLKlfW2L-xo
+      short-id: ''
+    server: 5.61.89.225
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0df23c07-b289-4d65-822a-228478ca73bd
+    xudp: true
+    servername: eh.vk.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹⁺_4|6.6MB/s|GM|YT|TK|NF|D+|X|[原生|机房]"
+    network: ws
+    port: 2096
+    server: 162.120.94.138
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: sni.111000.indevs.in
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1F9\U0001F1FCTW²_4|9.5MB/s|GPT|GM|YT|X"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: ev0T0oHwKzoTLJJ-enihK36_fOhb6Wdt5XMMj9QtCh0
+    server: 2.tw.1.cdn-bilibili.cn
+    tls: true
+    type: vless
+    udp: true
+    uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+    servername: www.icloud.com
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1F8\U0001F1ECSG²_6|16.0MB/s|0%|GPT⁺|GM|YT|NF|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50005
+    server: lh2.cac.cab
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1F7FR²_3|5.6MB/s|42%|GPT⁺|YT-RU|X|[广播|商宽]"
+    network: tcp
+    port: 47030
+    reality-opts:
+      public-key: cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8
+      short-id: e18eda8458cab0d7
+    server: 62.133.62.85
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8edffcc8-c437-4c49-a4b6-43d256b15e14
+    xudp: true
+    servername: api-maps.yandex.ru
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1F8\U0001F1ECSG²_7|9.3MB/s|0%|GPT⁺|GM|YT|NF|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50007
+    server: lh2.cac.cab
+    type: ss
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1ED\U0001F1F0HK²_3|9.0MB/s|0%|YT-CN|NF|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50002
+    server: lh.cac.cab
+    type: ss
+  - name: "\U0001F3F4‍☠_2\U0001F3F4‍☠_3DE13｜原生/疑似家宽｜高风险 (黑名单)|0.8MB/s|3.0MB/s|X|History"
+    port: 1080
+    server: 193.233.254.8
+    tls: false
+    type: socks5
+    username: T2dAMTkzLjIzMy4yNTQuODo%3D
+  - name: "\U0001F1EF\U0001F1F5JP²_5|9.8MB/s|33%|GPT⁺|GM|X"
+    password: ''
+    port: 18791
+    server: 141.98.197.133
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EADE²_4|4.4MB/s|49%|GPT⁺|X|History|[广播|机房]"
     network: ws
     port: 8080
     server: tgju.org
@@ -1219,39 +675,29 @@ proxies:
       path: /nasnet/cdn
     xudp: true
     client-fingerprint: chrome
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_2|5.7MB/s|1%|GPT⁺|X"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 35.181.255.155
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    type: trojan
-    udp: true
-    network: tcp
-    client-fingerprint: chrome
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EB\U0001F1EEFI²_6|2.0MB/s|10%|GPT⁺|D+|X"
-    network: ws
-    port: 38825
-    server: v3fi2.stablep.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: cd3603df-3a01-4a16-8987-3a4cc000583b
-    ws-opts:
-      headers:
-        HOST: v3fi2.stablep.top
-      path: /fi2-5
-    client-fingerprint: chrome
-    servername: v3fi2.stablep.top
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_6|0.9MB/s|NF|D+|X|Succeed"
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL²_5|6.7MB/s|0%|GPT⁺|YT-RU|NF|X|[原生|商宽]"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 8453e5fd9af927
+    server: 94.228.215.12
+    tls: true
+    type: vless
+    udp: true
+    uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
+    xudp: true
+    servername: hls-svod.itunes.apple.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_2|3.9MB/s|GPT⁺|YT|TK|NF|D+|X|History|[原生|机房]"
     network: ws
     port: 2053
     server: 104.17.73.206
@@ -1271,19 +717,573 @@ proxies:
     xudp: true
     servername: snippet.fgfw.de5.net
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_4|6.3MB/s|GM|YT|TK|NF|D+|X"
+    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_3|3.7MB/s|GPT|YT|NF|D+|X|Succeed|[原生|机房]"
     network: ws
-    port: 2096
-    server: 162.251.82.238
+    port: 2053
+    server: 104.17.73.206
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    ws-opts:
+      headers:
+        Host: snippet.fgfw.de5.net
+      path: /danfeng
+    servername: snippet.fgfw.de5.net
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|9.0MB/s|5%|GPT⁺|YT|NF|D+|X"
+    network: ws
+    port: 2095
+    server: cf.090227.xyz
+    skip-cert-verify: true
+    type: vless
+    udp: true
+    uuid: ''
+    ws-opts:
+      headers:
+        Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+      path: /fp=randomized
+    client-fingerprint: chrome
+    servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EC\U0001F1E7GB"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1EF\U0001F1F5JP²_6|9.1MB/s|0%|GPT|GM|YT|NF|D+|X|Succeed"
+    network: ws
+    port: 12883
+    server: gtm1.ktmwan.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+    ws-opts:
+      headers:
+        HOST: baidu.com
+        Host: gtm1.ktmwan.net
+      path: /
+    client-fingerprint: chrome
+    servername: baidu.com
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK¹-SG⁰_1|16.1MB/s|5%|GPT⁺|YT|NF|D+|X"
+    network: ws
+    port: 2053
+    server: v1.dabache.top
+    tls: true
+    type: vless
+    udp: true
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    ws-opts:
+      headers:
+        Host: snippet.danfeng21.ndjp.net
+      path: /danfeng
+    servername: snippet.danfeng21.ndjp.net
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP²_7|1.2MB/s|X|History|[广播|机房]"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+      short-id: 2da72ce6
+    server: 154.31.114.125
+    tls: true
+    type: vless
+    udp: true
+    uuid: 03c766ab-6537-4752-8211-51d575d3a9be
+    servername: navi.bankrate.com
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F3F4‍☠_3\U0001F525Join+Telegram:@Farah_VPN\U0001F7E3-632|6.4MB/s|X"
+    network: ws
+    port: 443
+    server: 162.159.7.198
+    tls: true
+    type: vless
+    udp: true
+    uuid: e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d
+    ws-opts:
+      headers:
+        Host: germany.pahlevancompani.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /?ed
+    xudp: true
+    servername: germany.pahlevancompani.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1EA\U0001F1F8ES²_1|1.5MB/s|26%|GPT⁺|X|History|[广播|机房]"
+    password: KnJGad3FqTvjqbaX
+    port: 9014
+    server: 5.188.181.201
+    type: ss
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US²_5|6.7MB/s|41%|GPT|YT|NF|X|History|[原生|机房]"
+    network: tcp
+    port: 30808
+    server: v8.hdacd.com
+    tls: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    client-fingerprint: chrome
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F3F4‍☠_4\U0001F1ED\U0001F1F0HK²_1|1.0MB/s|1.3MB/s|X|History"
+    network: ws
+    port: 52511
+    server: aflzzul.meiquankongjian.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    ws-opts:
+      headers:
+        Host: aflzzul.meiquankongjian.com
+      path: /564dfa20/
+    xudp: true
+    client-fingerprint: chrome
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE¹-US⁰_4|5.6MB/s|GPT|D+|X|[广播|机房]"
+    network: ws
+    port: 8443
+    server: 45.132.1.208
     tls: true
     type: vless
     udp: true
     uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: sni.jpmj.dev
+        Host: sni.111000.indevs.in
       path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: sni.jpmj.dev
+    servername: sni.111000.indevs.in
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_4|0.8MB/s|GPT|GM|YT|NF|D+|X|Succeed|[原生|机房]"
+    network: ws
+    port: 2053
+    server: china.embassy.gov.au
+    tls: true
+    type: vless
+    udp: true
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    ws-opts:
+      headers:
+        Host: snippet.danfeng.gleeze.com
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: snippet.danfeng.gleeze.com
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US²_6|9.7MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[广播|机房]"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50018
+    server: lh2.cac.cab
+    type: ss
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_4|5.4MB/s|1%|GPT⁺|NF|X|[广播|机房]"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 15.188.21.75
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+    network: tcp
+    client-fingerprint: chrome
+  - name: "\U0001F1EB\U0001F1F7FR²_5|2.6MB/s|0%|GPT⁺|X|Succeed"
+    password: ''
+    port: 1080
+    server: 185.194.217.97
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP²_8|11.8MB/s|0%|GPT|GM|YT|NF|D+|X"
+    network: ws
+    port: 12883
+    server: gtm1.ktmwan.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /
+    xudp: true
+    client-fingerprint: chrome
+  - encryption: none
+    name: "\U0001F1E8\U0001F1E6CA²_1|7.9MB/s|32%|GPT⁺|YT|X"
+    network: ws
+    port: 80
+    server: 104.20.1.252
+    type: vless
+    udp: true
+    uuid: 3775d133-dc3a-4a02-8095-5c70c328ae9f
+    ws-opts:
+      headers:
+        Host: HUge-ActOR48bf36fHJV.ecOTouriSS.co.uK.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
+      path: /?ed
+    xudp: true
+    client-fingerprint: chrome
+  - name: "\U0001F1ED\U0001F1F0HK²_4|4.3MB/s|0%|D+|X|History"
+    password: BxceQaOe
+    port: 443
+    server: 219.76.135.98
+    skip-cert-verify: true
+    sni: t.me%25252Fripaojiedian
+    type: trojan
+    network: tcp
+    client-fingerprint: chrome
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_5|2.6MB/s|GPT⁺|YT|TK|NF|D+|X|[原生|机房]"
+    network: ws
+    port: 2053
+    server: 104.17.71.206
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    ws-opts:
+      headers:
+        Host: snippet.sheilabelinda.ndjp.net
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: snippet.sheilabelinda.ndjp.net
+  - name: "\U0001F1F8\U0001F1ECSG²_8|10.3MB/s|GPT|X"
+    password: ''
+    port: 10852
+    server: 213.35.110.67
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_7|4.0MB/s|0%|GPT⁺|GM|YT|D+|X"
+    network: tcp
+    port: 23916
+    server: vm1.as7akp.cn
+    skip-cert-verify: true
+    type: vmess
+    uuid: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+    client-fingerprint: chrome
+    servername: vm1.as7akp.cn
+  - encryption: none
+    name: "\U0001F1EC\U0001F1E7GB²_1|6.3MB/s|0%|GPT⁺|D+|X|Succeed|[广播|机房]"
+    network: ws
+    port: 8080
+    server: digitalocean.com
+    type: vless
+    udp: true
+    uuid: a460ed1b-e063-496c-9057-784547c0c81c
+    ws-opts:
+      headers:
+        Host: dildodod.decoreland.ir.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/34.0.1847.131 Safari/537.36
+      path: /
+    xudp: true
+    client-fingerprint: chrome
+  - name: "\U0001F1F0\U0001F1F7KR²_2|10.0MB/s|10%|GPT⁺|GM|YT|D+|X|History"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - alpn:
+      - http/1.1
+    client-fingerprint: android
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_5|6.6MB/s|6%|GPT⁺|X|[广播|机房]"
+    network: ws
+    port: 2053
+    server: ipw.ygdfw.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2463aca1-4e1c-4bee-bb82-7a5aa5a80ad2
+    ws-opts:
+      headers:
+        Host: vdv2.domconflolometi9978.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      path: /
+    xudp: true
+    servername: vdv2.domconflolometi9978.org
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F9IT²_1|4.8MB/s|31%|GPT⁺|D+|X|[广播|机房]"
+    network: tcp
+    port: 51101
+    reality-opts:
+      public-key: _CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM
+      short-id: 4ffc99daad0f261f
+    server: 90.156.217.130
+    tls: true
+    type: vless
+    udp: true
+    uuid: 08d6280b-90c8-41e1-a809-3132cfb706f5
+    xudp: true
+    servername: m.vk.ru
+  - country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_5|5.2MB/s|0%|YT-CN|NF|D+|X|Succeed"
+    password: BxceQaOe
+    port: 443
+    server: 219.76.135.98
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+    network: tcp
+    client-fingerprint: chrome
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1ED\U0001F1F0HK²_6|12.2MB/s|1%|YT-CN|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50001
+    server: lh.cac.cab
+    type: ss
+  - name: "\U0001F3F4‍☠_5\U0001F3F4‍☠_3DE53｜原生/疑似家宽｜高风险 (黑名单)|2.1MB/s|2.6MB/s|X|History"
+    port: 1080
+    server: 193.233.254.7
+    tls: false
+    type: socks5
+    username: >-
+      VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
+  - name: "\U0001F1E8\U0001F1E6CA²_2|5.0MB/s|GPT⁺|X|Succeed"
+    password: ''
+    port: 1080
+    server: 143.110.217.153
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1EEFI²_2|4.8MB/s|0%|GPT⁺|X|[广播|机房]"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: ''
+    server: fl-2.bot-iphone.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9c42819a-67a6-4742-9c6d-64900ba62160
+    xudp: true
+    servername: www.samsung.com
+  - cipher: aes-128-gcm
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1F9\U0001F1FCTW²_5|16.4MB/s|0%|GPT⁺|GM|YT|NF|D+|X"
+    password: 96223d40-0fe8-4eda-9aaa-25daba4aecd4
+    port: 50013
+    server: lh2.cac.cab
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹⁺_5|6.4MB/s|GPT|GM|YT|TK|NF|D+|X|[原生|机房]"
+    network: ws
+    port: 2096
+    server: 185.170.166.138
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: sni.111000.indevs.in
+  - encryption: none
+    name: "\U0001F1E8\U0001F1E6CA²_3|6.9MB/s|32%|GPT⁺|YT|X|[广播|机房]"
+    network: ws
+    port: 80
+    server: 172.66.128.71
+    type: vless
+    udp: true
+    uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
+    ws-opts:
+      headers:
+        Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /?ed
+    xudp: true
+    client-fingerprint: chrome
+  - name: "\U0001F1F3\U0001F1F1NL²_6|5.8MB/s|GPT⁺|X|Succeed"
+    password: ''
+    port: 1080
+    server: 104.248.197.67
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US²_8|5.7MB/s|7%|GPT⁺|NF|X|Succeed|[广播|机房]"
+    network: tcp
+    port: 5443
+    reality-opts:
+      public-key: fN0jSTqScsS-N3lRjtdgMoKsm3y2IJB9-z84Ewg_p2M
+      short-id: 7c41e6ab7c162a95
+    server: 185.247.185.6
+    tls: true
+    type: vless
+    udp: true
+    uuid: cd0aba07-3b28-48a2-8cbb-49be72420089
+    xudp: true
+    servername: 'sun6-22.userapi.com:443'
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1F1AL²_1|5.8MB/s|42%|GPT⁺|D+|X|[广播|商宽]"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
+      short-id: 9f6a51680da312f6
+    server: 78.159.131.76
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6416708c-eaa5-4ec5-b652-a2db2feab875
+    xudp: true
+    servername: al.cdn.stun.su
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_6|6.9MB/s|X|History"
+    network: ws
+    port: 80
+    server: 104.20.1.252
+    type: vless
+    udp: true
+    uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
+    ws-opts:
+      headers:
+        Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /?ed
+    xudp: true
+    client-fingerprint: chrome
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹⁺_6|6.8MB/s|GM|YT|NF|D+|X|History|[原生|机房]"
+    network: ws
+    port: 2096
+    server: 103.116.7.138
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.indevs.in
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: sni.111000.indevs.in
+  - name: "\U0001F1F3\U0001F1F1NL²_7|1.3MB/s|40%|GPT⁺|X"
+    password: ''
+    port: 18080
+    server: 213.111.146.36
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1F0\U0001F1F7KR²_3|0.9MB/s|4%|GPT⁺|GM|X|History"
+    port: 1090
+    server: 121.169.46.116
+    type: socks5
+    username: Og%3D%3D
+  - name: "\U0001F1F3\U0001F1F1NL²_8|5.6MB/s|GPT⁺|X|History"
+    password: ''
+    port: 1080
+    server: 161.35.82.57
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    delay: 1001
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|17.4MB/s|5%|YT|D+|X|Succeed"
+    network: ws
+    port: 443
+    server: mobile.twitter.now.cc
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: 5465765525.ccfly.tech
+      max-early-data: 2048
+      path: /
+    servername: 5465765525.ccfly.tech
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹-SG⁰_6|0.9MB/s|GM|YT|NF|D+|X|Succeed|[原生|机房]"
+    network: ws
+    port: 2053
+    server: 1357900.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    ws-opts:
+      headers:
+        Host: snippet.danfeng.gleeze.com
+      path: /danfeng
+    servername: snippet.danfeng.gleeze.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_9|1.7MB/s|0%|GPT⁺|X|Succeed|[原生|机房]"
+    network: ws
+    port: 443
+    server: v1.dabache.top
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: e83b705e-4541-4ea3-9c2d-e7e9eb1f29c8
+    ws-opts:
+      headers:
+        HOST: blog.dezh.store
+      path: /
+    client-fingerprint: chrome
+    servername: blog.dezh.store
+  - name: "\U0001F3F4‍☠_6\U0001F1F0\U0001F1F7KR²_4|1.4MB/s|0.8MB/s|X|History"
+    password: ''
+    port: 1090
+    server: 121.169.46.116
+    skip-cert-verify: true
+    type: socks5
+    username: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
